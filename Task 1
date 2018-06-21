@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Task 1</title>
+    <style>
+    div {
+        border-radius: 10px;
+        }
+
+    a:link {
+        color: blue;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+    </style>
+</head>
+<body>
+    <div style="background-color:black; width: 400px;">&nbsp;</div>
+    <h1> ილიას სახელმწიფო უნივერსიტეტი </h1>
+    <div style="background-color:black; width: 400px;">&nbsp;</div>
+    <h2> ფაკულტეტის დასახელება </h2>
+
+    <ul style="list-style : none">
+        <li><a href="#"> მეცნიერებათა და ხელოვნების ფაკულტეტი </a></li>
+        <li><a href="#"> ბიზნესის ფაკულტეტი </a></li>
+        <li><a href="#"> სამართლის ფაკულტეტი </a></li>
+        <li><a href="#"> საინჟინრო ფაკულტეტი </a></li>
+    </ul>
+
+    <div style="background-color:green; width: 500px; height: 10px">&nbsp;</div>
+    <h4> ბიზნესის ფაკულტის პროგრამები </h4>
+
+    <ul>
+        <li>ბიზნესის ადმინისტრირება</li>
+        <li>საბანკო საქმე</li>
+        <li>ტურიზმის მენეჯმენტი</li>
+    </ul>
+
+    <div style="background-color:red; width: 500px; height: 10px">&nbsp;</div>
+    <p style="text-align:right; font-size:30px;">
+        <strong>მეცნიერებათა და ხელოვნების ფაკულტეტი </strong>
+    </p>
+    <div style="position: relative; left: 1040px; background-color:blue; width: 500px; height: 10px;">&nbsp;</div>
+
+    <h4> ზუსტი მეცნიერებები : </h4>
+    <ol style="list-style-type:decimal">
+        <li>ფიზიკა</li>
+        <li>ინფორმატიკა</li>
+        <li>ბიოლოგია</li>
+    </ol>
+    <h4> ჰუმანიტარული მეცნიერებები : </h4>
+    <ol style="list-style-type:decimal;" start="4">
+        <li>ქართველოლოგია</li>
+        <li>ანგლისტიკა</li>
+        <li>გერმანისტიკა</li>
+    </ol>
+
+    <dl>
+        <dt>A</dt>
+        <dd>first symbol of alphabet</dd>
+        <dt>B</dt>
+        <dd>secod symbol of alphabet</dd>
+        <dt>C</dt>
+        <dd>third symbol of alphabet</dd>
+    </dl>
+
+</body>
+</html>
